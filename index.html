@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Películas y Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 Buscador de Películas y Series</h1>
+        <nav>
+            <a href="presentacion.html">Presentación</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar películas o series..." autocomplete="off">
+            <select id="filter">
+                <option value="all">Todas</option>
+                <option value="movie">Películas</option>
+                <option value="series">Series</option>
+            </select>
+        </div>
+
+        <div id="results" class="results-grid">
+            <!-- Los resultados se cargarán aquí -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Buscador de Películas y Series</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
